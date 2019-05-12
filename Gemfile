@@ -7,6 +7,11 @@ ruby '2.6.0'
 gem 'rails', '~> 5.2.3'
 # Use postgresql as the database for Active Record
 gem 'pg'
+gem 'devise'
+gem 'devise-bootstrap-views'
+gem 'jquery-rails'
+gem 'twitter-bootstrap-rails'
+gem "font-awesome-rails"
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -60,7 +65,6 @@ end
 
 group :production do
   gem 'pg'
-  gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

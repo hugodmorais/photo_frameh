@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
 
 
     puts "//////////////////////////////////////////////////////////////////////////////////////////////////////////"
-    puts "SENDGRID_USERNAME: #{ENV['SENDGRID_USERNAME']}"
+    puts "SENDGRID_USERNAME: #{ENV['pusher_username']}"
     puts "SENDGRID_PASSWORD: #{ENV['SENDGRID_PASSWORD']}"
 end

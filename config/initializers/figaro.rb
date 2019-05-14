@@ -1,0 +1,1 @@
+Figaro.require_keys("pusher_STRIPE_TEST_PUBLISHABLE_KEY", "pusher_STRIPE_TEST_SECRET_KEY")

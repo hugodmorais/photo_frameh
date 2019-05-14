@@ -38,6 +38,7 @@ class RegistrationsController < Devise::RegistrationsController
         end
       end
     end
+    
     protected
     
     def configure_permitted_parameters

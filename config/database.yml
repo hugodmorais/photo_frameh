@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: photo_frameh_production
+  database: photoframeh
   username: photo_frameh
   password: <%= ENV['PHOTO_FRAMEH_DATABASE_PASSWORD'] %>

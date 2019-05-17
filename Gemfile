@@ -13,6 +13,10 @@ gem 'jquery-rails'
 gem 'twitter-bootstrap-rails'
 gem "font-awesome-rails"
 gem 'stripe'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 gem "figaro"
